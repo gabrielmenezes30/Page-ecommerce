@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.teste{
+    display: flex !important;
+    justify-content: center !important;
+  }
+    #nav{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 70%;
+      border-bottom: 1px solid #D8D8D8;
+
+    }
+    .navbar{
+      display: flex !important;
+      align-items: center !important;
+      height: 50px !important;
+    }
+    li{
+      margin-left: 20px;
+      list-style: none;
+      font-weight: 400;
+      color: #A4A4A4;
+      cursor: pointer;
+      transition: 0.1s;
+      display: flex;
+      align-items: center;
+      }
+    li:hover{
+      color: #FE642E;
+      transition: ease 0.1s;
+    }
+
+   .navbar-profile{
+     display: flex;
+     justify-content: flex-end;
+     padding-left: 42%;
+   }
+
+   .content-profile{
+     display: flex;
+     align-items: center;
+     justify-content: end;
+   }
+
+    .image-profile:hover{
+      border: 50% solid #FE642E;
+    }
+
+
+
+.container-principal{
+    margin-top: 120px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+}
+.container-img img{
+    border-radius: 30px;
+}
+.container-mini-imagem{
+    display: flex;
+}
+.container-mini-imagem img{
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.container-mini-imagem img:hover{
+   border: 3px solid #FE642E;
+}
+
+.text-principal{
+    margin-left: 120px;
+    margin-top: 120px;
+}
+.content-text{
+    display: flex;
+    flex-direction: column;
+}
+.content-text p{
+    color: #FE642E;
+    font-size: 24px;
+}
+.content-text h3{
+    color: #111;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.content-text span{
+    text-align: justify;
+    width: 50%;
+    margin-top: 20px;
+    color: #A4A4A4 ;
+    font-weight: 600;
+}
+
+.container-compras{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container-compras{
+    margin-top: 50px;
+}
+.container-compras button{
+    margin-left: 20px;
+}
+.text-price{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+
+.button-decrement, .button-increment{
+    width: 30px;
+    height: 30px;
+    background-color: #E6E6E6;
+    border: none;
+    cursor: pointer;
+
+}
+.button-cart{
+    width: 250px;
+    height: 60px;
+    background-color: #FF8000;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 10px;
+}
+
